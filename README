@@ -3,13 +3,8 @@ All programmed in C
 ListADT -> List.h & List.c: consists of List ADT and functions to allow for manipulation procedures which are implemented in the Matrix ADT 
 Note: List.c altered to be a list of generic pointers instead of ints
 
-ListTest.c -> Tests the List Functions from List.c
-
 MatrixADT -> Matrix.h & Matrix.c: consists of a Matrix ADT that will implement the List ADT and contain access functions and manipulation functions. This also contains helper functions to aid with some of the main manipulation functions.
 Note: vectorDot() created to help with product() and sumList() created to help with both sum() a diff()
-
-MatrixTest.c -> Tests matrix functions from Matrix.c
-Both test.c files were modeled similarly to client c files provided as I was using them to test my files; however, was altered to help aid furhter in my testing.
 
 Sparse.c -> Models as a basic matrix calculator and takes in input file to perform certain operations on a matrix and outputs them on an output file
 
